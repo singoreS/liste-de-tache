@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: lightskyblue;
+    max-width: 40vw;
+    margin: 2rem auto;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.list-taches{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-taches input{
+    width: 34vw;
+    margin: 20px 10px ;
+    height: 30px;
+    border-radius: 5px;
+}
+.list-taches img{
+    width: 2.5rem;
+}
+
+.div-change {
+    background-color: rgb(205 233 235);
+    width: 37vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .p-change {
+    display: block;
+    width: 80%;
+    padding: 3px 10px;
+    margin-left: 10px;
+  }
